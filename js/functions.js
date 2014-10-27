@@ -1,14 +1,11 @@
-function getLocation()
-{
+function getLocation() {
     $('.intro').slideUp("slow");
 
-    if (navigator.geolocation)
-    {
+    if (navigator.geolocation) {
         console.log("geolocation is working!");
         navigator.geolocation.getCurrentPosition(showPosition);
     }
-    else
-    {
+    else {
         console.log("No geolocation");
     }
 }
@@ -16,8 +13,7 @@ function getLocation()
 var latitude = "";
 var longitude = "";
 
-function showPosition(position)
-{
+function showPosition(position) {
     console.log("post the position");
     console.log("Latitude: " + position.coords.latitude +
                 "    Longitude: " + position.coords.longitude);

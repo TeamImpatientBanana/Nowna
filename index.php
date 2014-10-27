@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Delius|Inconsolata:400,700" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
     <link rel="stylesheet/less" href="css/main.less" />
@@ -15,7 +15,9 @@
     <script src="js/functions.js"></script>
     <title>NowNa!</title>
 </head>
+
 <body>
+
 	<header>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -44,7 +46,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
-              <img src="http://nowna.net/impatientbanana/images/impatientbananaalone.svg" style="float:right;width:25%">
+              <img src="images/impatientbananaalone.svg" style="float:right;width:25%">
               <h1 class="huge center ts">Discover events near you</h1>
               <h2 class="huge center ts pad10bot">based on Twitter.</h2>
               <button type="button" class="btn btn-success btn-lg removeWhiteSpace" onclick="getLocation()" id="showButton">
@@ -64,5 +66,7 @@
         &copy; 2014 The NowNa team
       </div>
     </footer>
+
 </body>
+
 </html>
