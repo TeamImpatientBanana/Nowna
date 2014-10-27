@@ -23,7 +23,6 @@ if(isset($_POST['latitude']) && isset($_POST['longitude'])) {
       next;
     $val++;
 ?>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-8qQw6BCorqyWEkV5psNf9q2SvrpIf4Y&sensor=true"></script>
 <script src="js/functions.js"></script>
 <div class="row tweetwrapper">
   <div class="col-sm-12">
@@ -40,42 +39,6 @@ if(isset($_POST['latitude']) && isset($_POST['longitude'])) {
         ?>
       </span>
     </div>
-
-    <script>
-        //var myLatitude = navigator.geolocation.coords.latitude;
-        //var myLongitude = navigator.geolocation.coords.longitude;
-
-        var myLatLng = new google.maps.LatLng(latitude, longitude);
-        //var theirLatlng = new google.maps.LatLng(myLatitude, myLongitude);
-
-        var mapOptions = {
-            zoom: 15,
-            center: myLatLng,
-            disableDefaultUI: true
-        }
-
-        var map<?php echo $val; ?> = new google.maps.Map(document.getElementById('map-canvas<?php echo $val; ?>'), mapOptions);
-
-        //var myMarker<?php echo $val; ?> = new google.maps.Marker({
-          //  position: myLatLng,
-            //map: map<?php echo $val; ?>,
-            //title: 'Marker'
-        //});
-        var myMarker<?php echo $val; ?> = new google.maps.Marker({
-            position: myLatLng,
-            map: map<?php echo $val; ?>,
-            title: 'Marker<?php echo $val; ?>'
-        });
-
-        //var theirMarker = new google.maps.Marker({
-        //    position: theirLatlng,
-        //    map: map,
-        //    title: 'Them'
-        //});
-    </script>
-
-    <div id="map-canvas<?php echo $val ?>" class="map-canvas"></div>
-   </div>
 </div>
 
 <?php

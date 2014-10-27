@@ -1,4 +1,7 @@
 <?php
+
+//does this do anything for us?
+
 ini_set('display_errors', 1);
 require_once('TwitterAPIExchange.php');
 

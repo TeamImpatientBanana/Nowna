@@ -38,32 +38,3 @@ function showPosition(position) {
         $('#tweet_box').html('The ajax request failed or we ran out of requests!');
     });
 }
-/*
-function initialize() {
-    var myLatitude = navigator.geolocation.coords.latitude;
-    var myLongitude = navigator.geolocation.coords.longitude;
-
-    var myLatLng = new google.maps.LatLng(myLatitude, myLongitude);
-    //var theirLatlng = new google.maps.LatLng(myLatitude, myLongitude);
-
-    var mapOptions = {
-        zoom: 15,
-        center: myLatLng,
-        disableDefaultUI: true
-    }
-
-    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-    var myMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'You'
-    });
-
-    //var theirMarker = new google.maps.Marker({
-    //    position: theirLatlng,
-    //    map: map,
-    //    title: 'Them'
-    //});
-}
-*/
