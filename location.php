@@ -23,7 +23,6 @@ if(isset($_POST['latitude']) && isset($_POST['longitude'])) {
       next;
     $val++;
 ?>
-<script src="js/functions.js"></script>
 <div class="row tweetwrapper">
   <div class="col-sm-12">
     <div class="pull-left">
@@ -31,12 +30,16 @@ if(isset($_POST['latitude']) && isset($_POST['longitude'])) {
         alt="<?php echo $status['user']['screen_name']; ?>"
         title="<?php echo $status['user']['screen_name']; ?>"
         class="img-responsive img-thumbnail avatar" />
+      </div>
       <span class="tweet" title="<?php echo $status['created_at']; ?>">
         <a href="https://twitter.com/<?php echo $status['user']['screen_name']; ?>">
           @<?php echo $status['user']['screen_name']; ?>
         </a>
+        <br/>
         <?php echo linkify_usernames($status['text']);
         ?>
+        <br/>
+        <small><?php echo $status['created_at']; ?></small>
       </span>
     </div>
 </div>
