@@ -1,10 +1,10 @@
-Nowna
+NowNa
 ==============
-Nowna is a small webapp that grabs your current location and shows you tweets taking place around you. The tweets must have included geolocation data when made.
+NowNa is a small webapp that grabs your current location and shows you tweets taking place around you. The tweets must have included geolocation data when made.
 
 This app was made with Twitter Bootstrap and https://github.com/J7mbo/twitter-api-php .
 
-This app was originally made by the Nowna team at RevolutionUC spring 2014, which included Team Impatient Banana members. The app is now being updated by Team Impatient Banana.
+This app was originally made by the NowNa team at RevolutionUC spring 2014, which included Team Impatient Banana members. The app is now being updated by Team Impatient Banana.
 
 ##To use
 
