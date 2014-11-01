@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li id="location">
-                Push Button for Location
+                
               </li>
             </ul>
           </div>

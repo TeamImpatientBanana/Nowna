@@ -36,7 +36,7 @@ if(isset($_POST['latitude']) && isset($_POST['longitude'])) {
           @<?php echo $status['user']['screen_name']; ?>
         </a>
         <br/>
-        <?php echo linkify_usernames($status['text']);
+        <?php echo linkify($status['text']);
         ?>
         <br/>
         <small><?php echo $status['created_at']; ?></small>
