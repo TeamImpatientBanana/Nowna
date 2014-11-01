@@ -62,7 +62,13 @@
 
     <footer>
       <div class="container">
-        &copy; 2014 The NowNa team
+        2014 The NowNa team, <a href="http://impatientbanana.com/">Team Impatient Banana</a>
+      </div>
+      <div class="container">
+        Made at Revolution UC Spring 2014
+      </div>
+      <div class="container">
+        <a href="https://github.com/TeamImpatientBanana/Nowna">Fork this on GitHub</a>
       </div>
     </footer>
 
