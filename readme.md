@@ -6,10 +6,6 @@ This app was made with Twitter Bootstrap and https://github.com/J7mbo/twitter-ap
 
 This app was originally made by the NowNa team at RevolutionUC spring 2014, which included Team Impatient Banana members. The app is now being updated by Team Impatient Banana.
 
-##To use
-
-Visit http://nowna.impatientbanana.com/ .
-
 ##To install on your own server
 
 Upload the Master branch to your LAMP server. Make sure Curl is installed properly and is set up to work with SSL! (ie, probably don't try to run this on XAMPP like I did).
